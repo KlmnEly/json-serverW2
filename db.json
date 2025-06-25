@@ -1,0 +1,55 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Kelmincito",
+            "email": "kelminemh@hotmail.com",
+            "clan_id": 1, 
+            "knowledges": ["PHP","MYSQL","LARAVEL","HTML","CSS","JAVASCRIPT"],
+            "is_active": true
+        },
+        {
+            "id": 2,
+            "name": "Jean Pierre",
+            "email": "jp@hotmail.com",
+            "clan_id": 3, 
+            "knowledges": ["HTML","CSS","JAVASCRIPT"],
+            "is_active": true
+        },
+        {
+            "id": 3,
+            "name": "Fabian",
+            "email": "fabian@hotmail.com",
+            "clan_id": 2, 
+            "knowledges": ["CHATGPT", "GEMINI"],
+            "is_active": true
+        }
+    ],
+    "clans": [
+        {
+            "id": 1,
+            "name": "Tayrona",
+            "is_active": true
+        },
+        {
+            "id": 2,
+            "name": "Macondo",
+            "is_active": true
+        },
+        {
+            "id": 3,
+            "name": "Manglar",
+            "is_active": true
+        },
+        {
+            "id": 4,
+            "name": "Caiman",
+            "is_active": true
+        },
+        {
+            "id": 5,
+            "name": "Sienaga",
+            "is_active": true
+        }
+    ]
+}

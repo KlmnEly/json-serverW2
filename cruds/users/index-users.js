@@ -17,6 +17,7 @@ async function loadUsers() {
             const clanName = relationWithClans ? relationWithClans.name : 'Sin clan';
 
             row.innerHTML = `
+                <td>${user.id}</td>
                 <td>${user.name}</td>
                 <td>${user.email}</td>
                 <td>${clanName}</td>
